@@ -3,6 +3,7 @@
 :root{
     /* Variables can be held here, it allows us to change the entire theme of the page from right here. */
     /* Variables can be referenced using the var() function */
+    /* Minor Obstacle: To use opacity with these colors, convert the hex to an RGBA value */
     /* Oranges */
     --orange-100: #fea962;
     --orange-200: #fd9e4e;
@@ -274,6 +275,116 @@
     background-color: var(--red-900);
 }
 
+/*--BORDER COLORS--*/
+/* These colors will just be the primaries */
+.border-orange{
+    border-color: var(--orange);
+    color: var(--orange);
+}
+.border-red{
+    border-color: var(--red);
+    color: var(--red);
+}
+.border-purple{
+    border-color: var(--purple);
+    color: var(--purple);
+}
+.border-green{
+    border-color: var(--green);
+    color: var(--green);
+}
+.border-white{
+    border-color: white;
+    color: white;
+}
+/*--HOVER COLORS--*/
+.border-orange:hover{
+    background-color: var(--orange);
+    border-color: var(--orange);
+}
+.border-red:hover{
+    background-color: var(--red);
+    border-color: var(--red);
+}
+.border-purple:hover{
+    background-color: var(--purple);
+    border-color: var(--purple);
+}
+.border-green:hover{
+    background-color: var(--green);
+    border-color: var(--green);
+}
+.border-white:hover{
+    background-color: rgba(255, 255, 255, .50);
+    border-color: white;
+}
+
+
+/*--ACTIVE STATES--*/
+.border-orange:focus{
+    outline: none !important;
+    box-shadow: none;
+}
+.border-orange:active{
+    background-color: var(--orange-700);
+    border-color: var(--orange-700);
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.border-red:focus{
+    outline: none !important;
+    box-shadow: none;
+}
+.border-red:active{
+    background-color: var(--red-700);
+    border-color: var(--red-700);
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.border-purple:focus{
+    outline: none !important;
+    box-shadow: none;
+}
+.border-purple:active{
+    background-color: var(--purple-700);
+    border-color: var(--purple-700);
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.border-green:focus{
+    outline: none !important;
+    box-shadow: none;
+}
+.border-green:active{
+    background-color: var(--green-700);
+    border-color: var(--green-700);
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.border-white:focus{
+    outline: none !important;
+    box-shadow: none;
+}
+.border-white:active{
+    background-color: white;
+    border-color: white;
+    color: gray;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+
+
+
+
+
+
+
 
 
 *
@@ -304,9 +415,18 @@ footer span
 {
     text-decoration: underline; 
 }
+
 .splash
 {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    background: linear-gradient(rgba(160, 207, 95, 0.85), rgba(160, 207, 95, 0.85)), url();
+    background-repeat: no-repeat;
+    background-position:center;
+    color: white;
 }
 .footerCopy{
     font-size:14px;
