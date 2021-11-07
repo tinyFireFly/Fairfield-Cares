@@ -1,0 +1,13 @@
+#wrapper {margin-left: auto; margin-right: auto;}
+header {background-color: #FFFFFF; background-image: url(logo.png); background-position: left; background-repeat: no-repeat;
+    background-size: 200px; height: 45px; margin: 0; height: 75px;}
+h2 {color: #FFFFFF; text-align: center; margin: 0;}
+nav {color: #D92B35; text-align: right; vertical-align: bottom;}
+nav a {text-decoration: none;}
+nav a:link {color: #D92B35;}
+nav a:visited {color: #D92B35;}
+nav a:hover {color: #d4585e}
+.intro {margin: 0; height: 1000px; background-image: url(background.jpg); background-size: 100%; background-repeat: no-repeat;}
+.partner {margin: 0; background-color: #8B5795; height: 200px; display: block;}
+.form {margin: 0; background-color: #4EC5D7; height: 200px; display: block;}
+footer {background-color: #4B4B4B; color: #FFFFFF; text-align: center; font-style: italic; display: block;}
