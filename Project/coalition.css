@@ -1,7 +1,7 @@
 #wrapper {margin-left: auto; margin-right: auto;}
 header {background-color: #FFFFFF; background-image: url(logo.png); background-position: left; background-repeat: no-repeat;
     background-size: 200px; height: 45px; margin: 0; height: 75px;}
-h2 {color: #FFFFFF; text-align: center; margin: 0;}
+h2 {color: #FFFFFF; margin: 0;}
 
 nav {color: #D92B35; text-align: right; vertical-align: bottom; font-size: medium;}
 nav a {text-decoration: none;}
@@ -11,9 +11,12 @@ nav a:hover {color: #d4585e}
 
 footer {background-color: #4B4B4B; color: #FFFFFF; text-align: center; font-style: italic; display: block;}
 
-.intro {margin: 0; height: 1000px; background-image: url(background.jpg); background-size: 100%; background-repeat: no-repeat;}
-.partner {margin: 0; background-color: #8B5795; height: 200px; display: block;}
-.form {margin: 0; background-color: #4EC5D7; height: 200px; display: block;}
+.intro {background-image: url(background.jpg); background-attachment: fixed; height: 1000px; overflow: scroll;}
+.news {margin: 0; background-color: #8EC641; height: 350px; display: block; float: left; width: 800px; padding: 1em;}
+.calendar {margin: 0; height: 350px; display: block; float: right; width: 750px; padding: .2em;}
+.function {margin: 0; background-color: #F3A51F; height: 350px; display: block; clear: both; padding: 1em;}
+.hub {margin: 0; background-color: #4EC5D7; height: 350px; display: block; clear: both; padding: 1em;}
+.form {margin: 0; background-color: #8B5795; height: 500px; display: block; clear: both; padding: 1em;}
 
 .dropbtn {background-color: #FFFFFF; color: #D92B35; border: none; 
     font-family: 'Times New Roman', Times, serif; font-size: medium;}
@@ -23,3 +26,15 @@ footer {background-color: #4B4B4B; color: #FFFFFF; text-align: center; font-styl
 .dropdown-content a:hover {background-color: #ddd;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: #FFFFFF;}
+
+ul li {color: #FFFFFF; list-style-type: none;}
+ul li a {text-decoration: none; font-weight: bold;}
+ul li a:link {color: #FFFFFF;}
+ul li a:visited {color: #FFFFFF;}
+ul li a:hover {color: #c4c2c2}
+
+p {color: #FFFFFF;}
+p a {text-decoration: none; font-weight: bold;}
+p a:link {color: #FFFFFF;}
+p a:visited {color: #FFFFFF;}
+p a:hover {color: darkblue}
