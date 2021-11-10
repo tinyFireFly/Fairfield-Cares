@@ -57,3 +57,10 @@ p a:hover {color: darkblue;}
 li {color: #FFFFFF;}
 dl dt {color: #FFFFFF; font-weight: bold;}
 dl dd {color: #FFFFFF;}
+
+.purple
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
