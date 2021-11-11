@@ -8,10 +8,66 @@ header {background-color: #FFFFFF; background-image: url(logo.png); background-p
 h2 {color: #999999;}
 nav {float: left; width: 150px; font-weight: bold; color: #cc0000;}
 nav a {text-decoration: none;}
-nav a:link {color: #cc0000;}
-nav a:visited {color: #cc0000;}
-nav a:hover {color: #c43e3e;}
-nav ul {list-style-type: none; padding-left: 1em;}
-aside {float: right; width: 200px;}
-main {margin: 0 210px 0 160px; padding: 1px 10px 20px 10px; background-color: #FFFFFF; color: black;}
-footer {font-style: italic; font-size: .7em; text-align: center; background-color: #FFFFFF; padding-top: 10px; clear: both;}
+nav a:link {color: #D92B35;}
+nav a:visited {color: #D92B35;}
+nav a:hover {color: #d4585e}
+
+footer {background-color: #4B4B4B; color: #FFFFFF; text-align: center; font-style: italic; display: block; padding-bottom: 1em;}
+footer a {color:#FFFFFF;}
+
+.home {background-image: url(background.jpg); background-attachment: fixed; height: 1000px; overflow: scroll;}
+.about {background-image: url(about.jpg); background-attachment: fixed; height: 600px; background-repeat: no-repeat; overflow: scroll;}
+.alcohol {background-image: url(alcohol.jpg); background-attachment: fixed; height: 600px; background-repeat: no-repeat; overflow: scroll;}
+.news {margin: 0; background-color: #8EC641; height: 350px; display: block; float: left; width: 750px; padding: 1em;}
+    .news ul li {color: #FFFFFF; list-style-type: none; font-size: large;}
+    .news ul li a {text-decoration: none; font-weight: bold;}
+    .news ul li a:link {color: #FFFFFF;}
+    .news ul li a:visited {color: #FFFFFF;}
+    .news ul li a:hover {color: darkblue;}
+.green {margin: 0; background-color: #8EC641; display: block; padding-top: 1em; padding-bottom: 1em; 
+    padding-left: 20em; padding-right: 20em;}
+.yellow {margin: 0; background-color: #F3A51F; display: block; clear: both; 
+    padding-top: 1em; padding-bottom: 1em; padding-left: 20em; padding-right: 20em;}
+.blue {margin: 0; background-color: #4EC5D7; display: block; clear: both;
+    padding-top: 1em; padding-bottom: 1em; padding-left: 20em; padding-right: 20em;}
+    .blue ol li {color: #FFFFFF;}
+.purple {margin: 0; background-color: #8B5795; display: block; clear: both;
+    padding-top: 1em; padding-bottom: 1em; padding-left: 20em; padding-right: 20em;}
+.calendar {margin: 0; height: 350px; display: flex; float: right; width: 750px; padding: 1em; align-items: center; flex-direction: column;}
+    .calendar h2 {text-align: center; color: #8EC641;}
+.hub {margin: 0; background-color: #4EC5D7; display: block; clear: both;
+    padding-top: 1em; padding-left: 20em; padding-right: 20em;}
+    .hub img {width: 150px; height: 150px; float: left; padding-right: 1em; padding-bottom: 1em;}
+
+.dropbtn {background-color: #FFFFFF; color: #D92B35; border: none; font-size: medium;}
+.dropdown {position: relative; display: inline-block;}
+.dropdown-content {display: none; position: absolute; background-color: #f1f1f1; min-width: 160px; z-index: 1;}
+.dropdown-content a {color: black; padding: 12px 16px; text-decoration: none; display: block;}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #FFFFFF;}
+
+p {color: #FFFFFF; font-size: large; display: inline-block;}
+p a {text-decoration: none; font-weight: bold;}
+p a:link {color: #FFFFFF;}
+p a:visited {color: #FFFFFF;}
+p a:hover {color: darkblue;}
+
+li {color: #FFFFFF;}
+dl dt {color: #FFFFFF; font-weight: bold;}
+dl dd {color: #FFFFFF;}
+
+.purple
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calendar-wrapper{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
