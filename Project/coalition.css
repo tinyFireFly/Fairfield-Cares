@@ -1,12 +1,13 @@
-header, nav, main, footer, aside {display:block;}
-* {box-sizing: border-box;}
-img {width: 100px; height: 50px;}
-body {margin: 0; background-color: #FFFFFF; color: black}
-#container {background-color: #999999; color: #cc0000; min-width: 960px; font-family: Verdana, Arial, sans-serif;}
-header {background-color: #FFFFFF; background-image: url(logo.png); background-position: center; background-repeat: no-repeat;
-    background-size: 500px; height: 120px; color: #cc0000; text-align: center; padding: 0 20px;}
-h2 {color: #999999;}
-nav {float: left; width: 150px; font-weight: bold; color: #cc0000;}
+#wrapper {margin-left: auto; margin-right: auto;}
+body {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+header {background-color: #FFFFFF; background-image: url(logo.png); background-position: left; background-repeat: no-repeat;
+    background-size: 200px; height: 45px; margin: 0; height: 75px;}
+h1 {color: #FFFFFF; font-size: 100px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center; position: relative; top: 50%; transform: translateY(-50%); margin: 0;}
+h2 {color: #FFFFFF; margin: 0; font-size: xx-large; font-family: Tahoma;}
+h3 {color: #FFFFFF; margin-bottom: 0; font-family: Tahoma; font-size: 22px;}
+
+nav {color: #D92B35; text-align: right; font-size: medium; position: relative; top: 60%; transform: translateY(-40%);}
 nav a {text-decoration: none;}
 nav a:link {color: #D92B35;}
 nav a:visited {color: #D92B35;}
@@ -33,7 +34,7 @@ footer a {color:#FFFFFF;}
     .blue ol li {color: #FFFFFF;}
 .purple {margin: 0; background-color: #8B5795; display: block; clear: both;
     padding-top: 1em; padding-bottom: 1em; padding-left: 20em; padding-right: 20em;}
-.calendar {margin: 0; height: 350px; display: flex; float: right; width: 750px; padding: 1em; align-items: center; flex-direction: column;}
+.calendar {margin: 0; height: 350px; display: block; float: right; width: 750px; padding: 1em;}
     .calendar h2 {text-align: center; color: #8EC641;}
 .hub {margin: 0; background-color: #4EC5D7; display: block; clear: both;
     padding-top: 1em; padding-left: 20em; padding-right: 20em;}
