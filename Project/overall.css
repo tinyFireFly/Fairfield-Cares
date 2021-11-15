@@ -44,7 +44,7 @@
     --red-700: #bb222a;
     --red-800: #ab1f27;
     --red-900: #9a1c23;
-
+    --blue: #4EC5D7;
 }
 
 /*--TEXT COLORS--*/
@@ -89,7 +89,7 @@
 .green400{
     color: var(--green-400);
 }
-.green{
+.tcgreen{
     color: var(--green);
 }
 .green600{
@@ -274,7 +274,10 @@
 .bg-red900{
     background-color: var(--red-900);
 }
-
+/*--Blue--*/
+.bg-blue{
+    background-color: var(--blue);
+}
 /*--BORDER COLORS--*/
 /* These colors will just be the primaries */
 .border-orange{
@@ -387,7 +390,8 @@
 
 
 
-*
+/* 
+
 {
     box-sizing: border-box;
     margin: 0;
@@ -404,7 +408,7 @@ nav h1
 {
     color: white;
 }
-footer /*change color*/
+footer 
 {
     color:#183981;
     background-color: #6D7D8A;
@@ -441,3 +445,4 @@ footer span
     line-height:1.5em;
 }
 
+*/

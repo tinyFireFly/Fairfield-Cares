@@ -1,6 +1,11 @@
+
+*{
+        box-sizing: border-box;
+}
+
 #wrapper {
-        margin-left: auto; 
-        margin-right: auto;
+margin-left: auto;
+margin-right: auto;
 }
 body {
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -30,15 +35,17 @@ h3 {
         font-family: Tahoma; 
         font-size: 22px;
 }
-
-nav {
+p{
+        font-size: 20px;
+}
+/* nav {
         color: #D92B35; 
         text-align: right; 
         font-size: medium; 
         position: relative; 
         top: 60%; 
         transform: translateY(-40%);
-}
+} */
 nav a {
         text-decoration: none;
 }
@@ -179,13 +186,21 @@ footer a {
         padding-right: 1em; 
         padding-bottom: 1em;}
 
+.hubImg{
+        width: 250px;
+        height: 250px;
+        content: url(images/hub.png);
+        object-fit: contain;
+        object-position: center;
+}
+
 .dropbtn {
         background-color: #FFFFFF; 
         color: #D92B35; 
         border: none; 
         font-size: medium;
 }
-.dropdown {
+/* .dropdown {
         position: relative; 
         display: inline-block;
 }
@@ -211,7 +226,7 @@ footer a {
 .dropdown:hover .dropbtn {
         background-color: #FFFFFF;
 }
-
+ */
 p {
         color: #FFFFFF; 
         font-size: large; 
@@ -250,9 +265,21 @@ dl dd {
 }
 
 .calendar-wrapper{
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 35px;
-    height: 0;
+    
+   
+    
     overflow: hidden;
+}
+
+.calendar-wrapper .mobilePrompt{
+        display: none;
+}
+
+@media screen and (max-width: 460px){
+        .calendar-wrapper iframe{
+               display: none; 
+        }
+        .calendar-wrapper .mobilePrompt{
+                display: block;
+        }
 }
