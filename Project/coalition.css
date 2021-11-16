@@ -275,11 +275,12 @@ dl dd {
         display: none;
 }
 
-@media screen and (max-width: 460px){
+@media (max-width: 460px){
         .calendar-wrapper iframe{
                display: none; 
         }
         .calendar-wrapper .mobilePrompt{
                 display: block;
         }
+        
 }
