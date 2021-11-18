@@ -1,9 +1,3 @@
-
-//get header script
-$.get("header.html", function(data){
-  $("#header-placeholder").replaceWith(data);
-});
-
 //<!--Google Translate Scripts-->
 function googleTranslateElementInit() { 
         new google.translate.TranslateElement(
@@ -11,3 +5,6 @@ function googleTranslateElementInit() {
             'google_translate_element'
         ); 
 } 
+$(document).ready( function() {
+    $('.dropdown-toggle').dropdown();
+});

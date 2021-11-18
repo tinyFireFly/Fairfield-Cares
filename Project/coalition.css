@@ -39,7 +39,7 @@ footer a {color:#FFFFFF;}
 .hub {margin: 0; background-color: #4EC5D7; display: block; clear: both;
     padding-top: 1em; padding-left: 10em; padding-right: 10em;}
     .hub img {width: 150px; height: 150px; float: left; padding-right: 1em; padding-bottom: 1em;}
-
+/*
 .dropbtn {background-color: #FFFFFF; color: #D92B35; border: none; font-size: medium;}
 .dropdown {position: relative; display: inline-block;}
 .dropdown-content {display: none; position: absolute; background-color: #f1f1f1; min-width: 160px; z-index: 1;}
@@ -64,7 +64,7 @@ footer a {color:#FFFFFF;}
     margin-top: -30px;
     left: 100%;
 }
-
+*/
 p {color: #FFFFFF; font-size: large; display: inline-block;}
     p a {text-decoration: none; font-weight: bold;}
     p a:link {color: #FFFFFF;}
