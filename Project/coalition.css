@@ -1,5 +1,4 @@
 
-<<<<<<< Updated upstream
 *{
         box-sizing: border-box;
 }
@@ -59,134 +58,6 @@ nav a:visited {
 nav a:hover {
         color: #d4585e;
 }
-
-footer {
-        background-color: #4B4B4B; 
-        color: #FFFFFF; 
-        text-align: center; 
-        font-style: italic; 
-        display: block; 
-        padding-bottom: 1em;}
-
-footer a {
-        color:#FFFFFF;
-}
-
-.home {
-        background-image: url(background.jpg); 
-        background-attachment: fixed; 
-        height: 1000px; 
-        overflow: scroll;
-}
-.about {
-        background-image: url(about.jpg); 
-        background-attachment: fixed; 
-        height: 600px; 
-        background-repeat: no-repeat; 
-        overflow: scroll;
-}
-.alcohol {
-        background-image: url(alcohol.jpg); 
-        background-attachment: fixed; 
-        height: 600px; 
-        background-repeat: no-repeat; 
-        overflow: scroll;
-}
-.news {
-        margin: 0; 
-        background-color: #8EC641; 
-        height: 350px; 
-        display: block; 
-        float: left; 
-        width: 750px; 
-        padding: 1em;
-}
-
-.news ul li {
-        color: #FFFFFF; 
-        list-style-type: none; 
-        font-size: large;
-}
-.news ul li a {
-        text-decoration: none; 
-        font-weight: bold;
-}
-.news ul li a:link {
-        color: #FFFFFF;
-}
-.news ul li a:visited {
-        color: #FFFFFF;
-}
-.news ul li a:hover {
-        color: darkblue;
-=======
-<<<<<<< HEAD
-nav {color: #D92B35; text-align: right; font-size: medium; position: relative; top: 60%; transform: translateY(-40%); padding-right: 1em;}
-nav a {text-decoration: none; color: #D92B35;}
-nav a:link {color: #D92B35;}
-nav a:visited {color: #D92B35;}
-nav a:hover {color: #d4585e}
-=======
-*{
-        box-sizing: border-box;
-}
-
-#wrapper {
-margin-left: auto;
-margin-right: auto;
-}
-body {
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-header {
-        background-color: #FFFFFF; 
-        background-image: url(logo.png); 
-        background-position: left; 
-        background-repeat: no-repeat;
-        background-size: 200px; height: 45px; margin: 0; height: 75px;
-}
-h1 {
-        color: #FFFFFF; 
-        font-size: 100px; 
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        text-align: center; position: relative; top: 50%; transform: translateY(-50%); margin: 0;
-}
-h2 {
-        color: #FFFFFF; 
-        margin: 0; 
-        font-size: xx-large; 
-        font-family: Tahoma;
-}
-h3 {
-        color: #FFFFFF; 
-        margin-bottom: 0; 
-        font-family: Tahoma; 
-        font-size: 22px;
-}
-p{
-        font-size: 20px;
-}
-/* nav {
-        color: #D92B35; 
-        text-align: right; 
-        font-size: medium; 
-        position: relative; 
-        top: 60%; 
-        transform: translateY(-40%);
-} */
-nav a {
-        text-decoration: none;
-}
-nav a:link {
-        color: #D92B35;
-}
-nav a:visited {
-        color: #D92B35;
-}
-nav a:hover {
-        color: #d4585e;
-}
->>>>>>> 995cddee3871e44e5f50ef5b6e6305afe3c93871
 
 footer {
         background-color: #4B4B4B; 
@@ -315,108 +186,6 @@ footer a {
         padding-right: 1em; 
         padding-bottom: 1em;}
 
-<<<<<<< HEAD
-.dropbtn {background-color: #FFFFFF; color: #D92B35; border: none; font-size: medium;}
-.dropdown {position: relative; display: inline-block;}
-.dropdown-content {display: none; position: absolute; background-color: #f1f1f1; min-width: 160px; z-index: 1;}
-    .dropdown-content a {color: black; padding: 12px 16px; text-decoration: none; display: block;}
-    .dropdown-content a:hover {background-color: #ddd;}
-.dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: #FFFFFF;}
-.dropdown-submenu{
-    position: relative;
-}
-.dropdown-submenu a:after{
-    display: flex;
-    flex-direction: column;
-    position: absolute !important;
-    margin-top: -30px;
-    left: 100%;
-}
-.dropdown-submenu:hover .dropdown-menu, .dropdown-submenu:focus .dropdown-menu{
-    display: flex;
-    flex-direction: column;
-    position: absolute !important;
-    margin-top: -30px;
-    left: 100%;
-=======
-.hubImg{
-        width: 250px;
-        height: 250px;
-        content: url(images/hub.png);
-        object-fit: contain;
-        object-position: center;
->>>>>>> 995cddee3871e44e5f50ef5b6e6305afe3c93871
->>>>>>> Stashed changes
-}
-.green {
-        margin: 0; 
-        background-color: #8EC641; 
-        display: block; 
-        padding-top: 1em; 
-        padding-bottom: 1em; 
-        padding-left: 20em; 
-        padding-right: 20em;
-}
-.yellow {
-        margin: 0; 
-        background-color: #F3A51F; 
-        display: block; 
-        clear: both; 
-        padding-top: 1em; 
-        padding-bottom: 1em; 
-        padding-left: 20em; 
-        padding-right: 20em;
-}
-.blue {
-        margin: 0; 
-        background-color: #4EC5D7; 
-        display: block; 
-        clear: both;
-        padding-top: 1em; 
-        padding-bottom: 1em; 
-        padding-left: 20em; 
-        padding-right: 20em;
-}
-.blue ol li {
-        color: #FFFFFF;
-}
-.purple {
-        margin: 0; 
-        background-color: #8B5795; 
-        display: block; 
-        clear: both;
-        padding-top: 1em; 
-        padding-bottom: 1em; 
-        padding-left: 20em; 
-        padding-right: 20em;}
-.calendar {
-        margin: 0; 
-        height: 350px; 
-        display: block; 
-        float: right; 
-        width: 750px; 
-        padding: 1em;
-}
-.calendar h2 {
-            text-align: center; 
-            color: #8EC641;
-}
-.hub {
-        margin: 0; 
-        background-color: #4EC5D7; 
-        display: block; clear: both;
-        padding-top: 1em; 
-        padding-left: 20em; 
-        padding-right: 20em;}
-.hub img {
-        width: 150px; 
-        height: 150px; 
-        float: left; 
-        padding-right: 1em; 
-        padding-bottom: 1em;}
-
-<<<<<<< Updated upstream
 .hubImg{
         width: 250px;
         height: 250px;
@@ -425,8 +194,6 @@ footer a {
         object-position: center;
 }
 
-=======
->>>>>>> Stashed changes
 .dropbtn {
         background-color: #FFFFFF; 
         color: #D92B35; 
