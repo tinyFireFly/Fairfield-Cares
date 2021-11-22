@@ -23,7 +23,7 @@ class Header extends HTMLElement {
                           <a class="dropdown-toggle" data-toggle="dropdown">
                             About Fairfield CARES <span class="caret"></span>
                           </a>
-                          <ul class="dropdown-menu">
+                          <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
                             <li><a href="aboutUs.html">About Us</a></li>
                             <li><a href="#">Our Staff</a></li>
                             <li><a href="#">Our Mission</a></li>
@@ -35,13 +35,13 @@ class Header extends HTMLElement {
                           <a class="dropdown-toggle" data-toggle="dropdown"> 
                               What We Do <span class="caret"></span>
                           </a>
-                              <ul class="dropdown-menu">
+                          <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
               <!--Underage Drinking-->
                                   <li class="dropdown-submenu">
                                       <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                           Underage Drinking Prevention <span class="caret"></span>
                                       </a>
-                                      <ul class="dropdown-menu">
+                                    <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
                                           <li><a href="alcoholPrograms.html">Prevention Programs</a></li>
                                           <li><a href="alcoholInformation.html">Prevention Information</a></li>
                                       </ul>
@@ -50,7 +50,7 @@ class Header extends HTMLElement {
                                   <li class="dropdown-submenu">
                                       <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                           Cannabis/Marijuana Prevention<span class="caret"></span></a>
-                                      <ul class="dropdown-menu">
+                                    <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
                                           <li><a href="marijuanaPrograms.html">Prevention Programs</a></li>
                                           <li><a href="marijuanaInformation.html">Prevention Information</a></li>
                                       </ul>
@@ -59,7 +59,7 @@ class Header extends HTMLElement {
                                   <li class="dropdown-submenu">
                                       <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                           Vaping/Nicotine Prevention<span class="caret"></span></a>
-                                      <ul class="dropdown-menu">
+                                    <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
                                           <li><a href="vapingPrograms.html">Prevention Programs</a></li>
                                           <li><a href="vapingInformation.html">Prevention Information</a></li>
                                       </ul>
@@ -68,7 +68,7 @@ class Header extends HTMLElement {
                                   <li class="dropdown-submenu">
                                       <a class="dropdown-toggle" data-toggle="dropdown" href="#"> 
                                           Opioids Prevention<span class="caret"></span></a>
-                                      <ul class="dropdown-menu">
+                                      <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
                                           <li> <a href="opiodsPrograms.html">Prevention Programs</a></li>
                                           <li><a href="opiodsInformation.html">Prevention Information</a></li>
                                       </ul>
@@ -77,7 +77,7 @@ class Header extends HTMLElement {
                                   <li class="dropdown-submenu">
                                       <a class="dropdown-toggle" data-toggle="dropdown" href="#"> 
                                           Mental Health Wellness<span class="caret"></span></a>
-                                      <ul class="dropdown-menu">
+                                        <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
                                           <li><a href="wellnessPrograms.html">Wellness Programs</a></li>
                                           <li><a href="wellnessInformation.html">Wellness Information</a></li>
                                       </ul>
@@ -90,8 +90,8 @@ class Header extends HTMLElement {
                               Coalition Meetings <span class="caret"></span>
                           </a> 
                           <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
-                              <li ><a href="agendas.html">Agendas</a></li>
-                              <li ><a href="minutes.html">Minutes</a></li>
+                              <li><a href="agendas.html">Agendas</a></li>
+                              <li><a href="minutes.html">Minutes</a></li>
                           </ul>
                       </li>
               <!--Resources Drop Down-->    
@@ -99,7 +99,7 @@ class Header extends HTMLElement {
                           <a class="dropdown-toggle" data-toggle="dropdown">
                             Resources <span class="caret"></span>
                           </a>
-                          <ul class="dropdown-menu">
+                          <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
                             <li><a href="#">Parents</a></li>
                             <li><a href="#">Children</a></li>
                             <li><a href="#">Our Counselors</a></li>
@@ -110,7 +110,7 @@ class Header extends HTMLElement {
                           <a class="dropdown-toggle" data-toggle="dropdown">
                             Helpful Resources <span class="caret"></span>
                           </a>
-                          <ul class="dropdown-menu">
+                          <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
                             <li><a href="#">Meeting Schedule</a></li>
                             <li><a href="#">Educational Videos</a></li>
                             <li><a href="#">Parent and Youth Survery Results</a></li>
