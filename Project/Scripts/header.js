@@ -18,8 +18,19 @@ class Header extends HTMLElement {
                   <div class="collapse navbar-collapse" id="navbarContent">
                   <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
                       <li class="nav-item mx-3 my-auto"><a href="index.html">Home</a></li>
-                      <li class="nav-item mx-3 my-auto"><a href="aboutUs.html">About Us</a></li>
-                      <!--What We Do Drop Down-->
+                <!--About Drop Down-->
+                      <li class="nav-item dropdown mx-3 my-auto">
+                          <a class="dropdown-toggle" data-toggle="dropdown">
+                            About Fairfield CARES <span class="caret"></span>
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a href="aboutUs.html">About Us</a></li>
+                            <li><a href="#">Our Staff</a></li>
+                            <li><a href="#">Our Mission</a></li>
+                            <li><a href="#">History</a></li>
+                          </ul>
+                        </li>
+            <!--What We Do Drop Down-->
                       <li class="nav-item dropdown mx-3 my-auto">
                           <a class="dropdown-toggle" data-toggle="dropdown"> 
                               What We Do <span class="caret"></span>
@@ -79,12 +90,32 @@ class Header extends HTMLElement {
                               Coalition Meetings <span class="caret"></span>
                           </a> 
                           <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
-                              <li class="dropdown-item"><a href="agendas.html">Agendas</a></li>
+                              <li ><a href="agendas.html">Agendas</a></li>
                               <li ><a href="minutes.html">Minutes</a></li>
                           </ul>
                       </li>
-              <!--Resources-->    
-                      <li class="nav-item mx-3 my-auto"><a href="resources.html">Resources </a></li>
+              <!--Resources Drop Down-->    
+                       <li class="nav-item dropdown mx-3 my-auto">
+                          <a class="dropdown-toggle" data-toggle="dropdown">
+                            Resources <span class="caret"></span>
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Parents</a></li>
+                            <li><a href="#">Children</a></li>
+                            <li><a href="#">Our Counselors</a></li>
+                          </ul>
+                       </li>
+            <!--Resources Drop Down-->    
+                       <li class="nav-item dropdown mx-3 my-auto">
+                          <a class="dropdown-toggle" data-toggle="dropdown">
+                            Helpful Resources <span class="caret"></span>
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Meeting Schedule</a></li>
+                            <li><a href="#">Educational Videos</a></li>
+                            <li><a href="#">Parent and Youth Survery Results</a></li>
+                          </ul>
+                       </li>
               <!--Donation *link to come-->
                       <li class="nav-item mx-3 my-auto"><a href="#">Donation </a></li>
               <!--Contact-->
