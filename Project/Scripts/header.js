@@ -28,6 +28,7 @@ class Header extends HTMLElement {
                             <li><a href="#">Our Staff</a></li>
                             <li><a href="#">Our Mission</a></li>
                             <li><a href="#">History</a></li>
+                            <li><a href="#">News/Events</a></li>
                           </ul>
                         </li>
             <!--What We Do Drop Down-->
@@ -101,7 +102,6 @@ class Header extends HTMLElement {
                           </a>
                           <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
                             <li><a href="#">Meeting Schedule</a></li>
-                            <li><a href="#">Educational Videos</a></li>
                             <li><a href="#">Parent and Youth Survery Results</a></li>
                           </ul>
                        </li>
