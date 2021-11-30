@@ -97,17 +97,6 @@ class Header extends HTMLElement {
               <!--Resources Drop Down-->    
                        <li class="nav-item dropdown mx-3 my-auto">
                           <a class="dropdown-toggle" data-toggle="dropdown">
-                            Resources <span class="caret"></span>
-                          </a>
-                          <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
-                            <li><a href="#">Parents</a></li>
-                            <li><a href="#">Children</a></li>
-                            <li><a href="#">Our Counselors</a></li>
-                          </ul>
-                       </li>
-            <!--Resources Drop Down-->    
-                       <li class="nav-item dropdown mx-3 my-auto">
-                          <a class="dropdown-toggle" data-toggle="dropdown">
                             Helpful Resources <span class="caret"></span>
                           </a>
                           <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
@@ -116,8 +105,6 @@ class Header extends HTMLElement {
                             <li><a href="#">Parent and Youth Survery Results</a></li>
                           </ul>
                        </li>
-              <!--Donation *link to come-->
-                      <li class="nav-item mx-3 my-auto"><a href="#">Donation </a></li>
               <!--Contact-->
                       <li class="nav-item mx-3 my-auto"><a href="contact.html">Contact Us </a></li>
               <!--Google Translate element-->
