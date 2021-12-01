@@ -27,6 +27,8 @@ footer a {color:#FFFFFF;}
     .news ul li a:hover {color: darkblue;}
 .green {margin: auto; background-color: #8EC641; display: block; padding-top: 1em; padding-bottom: 1em; 
     padding-left: 10em; padding-right: 10em;}
+.white {margin: auto; background-color: #ffffff; display: block; padding-top: 1em; padding-bottom: 1em; 
+        padding-left: 10em; padding-right: 10em;}
 .yellow {margin: auto; background-color: #F3A51F; display: block; clear: both; 
     padding-top: 1em; padding-bottom: 1em; padding-left: 10em; padding-right: 10em;}
 .blue {margin: 0; background-color: #4EC5D7; display: block; clear: both;
