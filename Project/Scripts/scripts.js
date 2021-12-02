@@ -8,3 +8,4 @@ function googleTranslateElementInit() {
 $(document).ready( function() {
     $('.dropdown-toggle').dropdown();
 });
+

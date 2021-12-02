@@ -50,7 +50,30 @@ footer a {color:#FFFFFF;}
 .hub {margin: 0; background-color: #4EC5D7; display: block; clear: both;
     padding-top: 1em; padding-left: 10em; padding-right: 10em;}
     .hub img {width: 150px; height: 150px; float: left; padding-right: 1em; padding-bottom: 1em;}
-
+#minutesLink{
+    text-decoration: none;
+    color: white;
+    padding-left: 10em;
+}
+#minutesList{
+    list-style-type: none;
+}
+#AgendasLink{
+    text-decoration: none;
+    color: white;
+    padding-left: 10em;
+}
+#agendasList{
+    list-style-type: none;
+}
+#AgendaMinuteManager, #AgendaMinuteManager a{
+    color: black;
+    text-emphasis: bold;
+    text-align: center;
+}
+#AgendaMinuteManager a:hover{
+    color: blue;
+}
 #none {list-style-type: none;}
 
 /*

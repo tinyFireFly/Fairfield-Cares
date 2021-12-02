@@ -92,7 +92,7 @@ class Header extends HTMLElement {
                           </a> 
                           <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
                               <li><a href="agendas.html">Agendas</a></li>
-                              <li><a href="minutes.html">Minutes</a></li>
+                              <li><a href="minutes.php">Minutes</a></li>
                           </ul>
                       </li>
               <!--Resources Drop Down-->    
