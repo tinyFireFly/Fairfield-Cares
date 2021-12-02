@@ -4,7 +4,7 @@ header {background-color: #FFFFFF; background-image: url(images/logo.png); backg
     background-size: 200px; height: 45px; margin: 0; height: 75px;}
 h1 {color: #FFFFFF; font-size: 100px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center; position: relative; top: 70%; transform: translateY(-50%); margin: 0; z-index: 0;}
-h2 {color: #FFFFFF; margin: 0; padding-bottom: .5em; font-size: xx-large; font-family: Tahoma; text-align: center;}
+h2 { margin: 0; padding-bottom: .5em; font-size: xx-large; font-family: Tahoma; text-align: center;}
 h3 {color: #FFFFFF; margin-bottom: 0; padding-bottom: .5em; font-family: Tahoma; font-size: 22px;}
 
 a {text-decoration: none; color: #FFFFFF;}
@@ -49,6 +49,26 @@ footer a {color:#FFFFFF;}
     .news ul li a:hover {color: darkblue;}
 .green {margin: auto; background-color: #8EC641; display: block; padding-top: 1em; padding-bottom: 1em; 
     padding-left: 10em; padding-right: 10em;}
+
+.green p, .green h2{
+    color: white;
+}
+
+.white p, .white h2{
+    color: white;
+}
+
+.yellow p, .yellow h2{
+    color: white;
+}
+
+.blue p, .blue h2{
+    color: white;
+}
+
+.purple p, .purple h2{
+    color: white;
+}
 .white {margin: auto; background-color: #ffffff; display: block; padding-top: 1em; padding-bottom: 1em; 
         padding-left: 10em; padding-right: 10em;}
 .yellow {margin: auto; background-color: #F3A51F; display: block; clear: both; 
