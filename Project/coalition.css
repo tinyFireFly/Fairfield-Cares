@@ -65,10 +65,10 @@ footer a {color:#FFFFFF;}
     left: 100%;
 }
 */
-p {color: #FFFFFF; font-size: large; display: inline-block;}
+p  {font-size: large; display: inline-block;}
     p a {text-decoration: none; font-weight: bold;}
-    p a:link {color: #FFFFFF;}
-    p a:visited {color: #FFFFFF;}
+    p a:link {}
+    p a:visited {}
     p a:hover {color: darkblue;}
 
 li {color: #FFFFFF;}
