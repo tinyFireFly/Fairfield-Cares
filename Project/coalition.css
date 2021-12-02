@@ -4,8 +4,13 @@ header {background-color: #FFFFFF; background-image: url(images/logo.png); backg
     background-size: 200px; height: 45px; margin: 0; height: 75px;}
 h1 {color: #FFFFFF; font-size: 100px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center; position: relative; top: 50%; transform: translateY(-50%); margin: 0;}
-h2 {color: #FFFFFF; margin: 0; font-size: xx-large; font-family: Tahoma; text-align: center;}
-h3 {color: #FFFFFF; margin-bottom: 0; font-family: Tahoma; font-size: 22px;}
+h2 {color: #FFFFFF; margin: 0; padding-bottom: .5em; font-size: xx-large; font-family: Tahoma; text-align: center;}
+h3 {color: #FFFFFF; margin-bottom: 0; padding-bottom: .5em; font-family: Tahoma; font-size: 22px;}
+
+a {text-decoration: none; color: #FFFFFF;}
+a:link {color: #FFFFFF;}
+a:visited {color: #FFFFFF;}
+a:hover {color: darkblue}
 
 nav {color: #D92B35; text-align: right; font-size: medium; position: relative; top: 60%; transform: translateY(-40%); padding-right: 1em;}
 nav a {text-decoration: none; color: #D92B35;}
@@ -18,7 +23,10 @@ footer a {color:#FFFFFF;}
 
 .home {background-image: url(images/background.jpg); background-attachment: fixed; height: 1000px; overflow: hidden;}
 .about {background-image: url(images/about.jpg); background-attachment: fixed; height: 600px; background-repeat: no-repeat; overflow: hidden;}
-.alcohol {background-image: url(images/alcohol.jpg); background-attachment: fixed; height: 600px; background-repeat: no-repeat; overflow: hidden;}
+.alcohol {background-image: url(images/alcohol.png); background-attachment: fixed; height: 600px; background-repeat: no-repeat; overflow: hidden;}
+.alcoholInfo {background-image: url(images/alcoholInfo.png); background-attachment: fixed; height: 600px; background-repeat: no-repeat; overflow: hidden;}
+.alcoholPrograms {background-image: url(images/alcoholPrograms.png); background-attachment: fixed; height: 600px; background-repeat: no-repeat; overflow: hidden;}
+.vaping {background-image: url(images/vaping.png); background-attachment: fixed; height: 600px; background-repeat: no-repeat; overflow: hidden;}
 .news {margin: auto; background-color: #8EC641; height: 350px; display: block; float: left; width: 50%; padding: 1em;}
     .news ul li {color: #FFFFFF; list-style-type: none; font-size: large;}
     .news ul li a {text-decoration: none; font-weight: bold;}
@@ -42,6 +50,8 @@ footer a {color:#FFFFFF;}
 .hub {margin: 0; background-color: #4EC5D7; display: block; clear: both;
     padding-top: 1em; padding-left: 10em; padding-right: 10em;}
     .hub img {width: 150px; height: 150px; float: left; padding-right: 1em; padding-bottom: 1em;}
+
+#none {list-style-type: none;}
 
 /*
 For hover effect: 
