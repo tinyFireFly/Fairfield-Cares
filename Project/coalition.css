@@ -121,6 +121,8 @@ footer a {color:#FFFFFF;}
         color: black;
     }
 #none {list-style-type: none;}
+#bold {font-weight: bold;}
+#italic {font-style: italic; font-size: small;}
 
 /*
 For hover effect: 
