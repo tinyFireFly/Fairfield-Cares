@@ -3,7 +3,7 @@ body {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucid
 header {background-color: #FFFFFF; background-image: url(images/logo.png); background-position: left; background-repeat: no-repeat;
     background-size: 200px; height: 45px; margin: 0; height: 75px;}
 h1 {color: #FFFFFF; font-size: 100px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center; position: relative; top: 50%; transform: translateY(-50%); margin: 0;}
+    text-align: center; position: relative; top: 70%; transform: translateY(-50%); margin: 0; z-index: 0;}
 h2 {color: #FFFFFF; margin: 0; padding-bottom: .5em; font-size: xx-large; font-family: Tahoma; text-align: center;}
 h3 {color: #FFFFFF; margin-bottom: 0; padding-bottom: .5em; font-family: Tahoma; font-size: 22px;}
 
@@ -12,12 +12,18 @@ a:link {color: #FFFFFF;}
 a:visited {color: #FFFFFF;}
 a:hover {color: darkblue}
 
-nav {color: #D92B35; text-align: right; font-size: medium; position: relative; top: 60%; transform: translateY(-40%); padding-right: 1em;}
-nav a {text-decoration: none; color: #D92B35;}
-nav a:link {color: #D92B35;}
-nav a:visited {color: #D92B35;}
-nav a:hover {color: #d4585e}
-
+nav {color: #D92B35; text-align: right; font-size: large; position: absolute; top: 50%; transform: translateY(-40%); padding-right: 1em;}
+    nav a {text-decoration: none; color: #D92B35;}
+    nav a:link {color: #D92B35;}
+    nav a:visited {color: #D92B35;}
+    nav a:hover {color: #d4585e}
+    .dropdown-menu{
+        position:absolute; 
+        z-index: 1000;
+    }
+    .dropdown-submenu{
+        text-align: left;
+    }
 footer {background-color: #4B4B4B; color: #FFFFFF; text-align: center; font-style: italic; display: block; padding-bottom: 1em;}
 footer a {color:#FFFFFF;}
 
@@ -67,9 +73,7 @@ footer a {color:#FFFFFF;}
 .youthSurvey p{
     padding-left: 2rem;
 }
-.dropdown-submenu{
-    text-align: left;
-}
+
 #minutesLink{
     text-decoration: none;
     color: white;
