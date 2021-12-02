@@ -181,6 +181,11 @@
 .bg-purple{
     background-color: var(--purple);
 }
+
+.bg-purple p, .bg-purple h2{
+    color: white;
+}
+
 .bg-purple600{
     background-color: var(--purple-600);
 }
@@ -208,6 +213,10 @@
 }
 .bg-green{
     background-color: var(--green);
+    
+}
+.bg-green p, .bg-green h2{
+    color: white;
 }
 .bg-green600{
     background-color: var(--green-600);
@@ -237,6 +246,16 @@
 .bg-orange{
     background-color: var(--orange);
 }
+
+.bg-orange{
+    background-color: var(--green);
+    
+}
+
+.bg-orange p, .bg-orange h2{
+    color: white;
+}
+
 .bg-orange600{
     background-color: var(--orange-600);
 }
@@ -390,4 +409,51 @@
     color: gray;
     outline: none !important;
     box-shadow: none !important;
+}
+
+.contain{
+    
+    overflow: hidden;
+    object-position: center;
+    width: 500px;
+    height: 350px;
+}
+
+.tintGreen{
+    filter: drop-shadow(16px 16px 20px var(--green-300));
+}
+
+.missionSplash{
+    background-image: url("images/Mike\ DeLeon\ presenting\ at\ WFS\ 11-9-21.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 1300px;
+    display: flex;
+    object-position: center;
+    object-fit: contain;
+    height: 400px;
+}
+
+.historySplash{
+    background-image: url("images/fairfieldCARESHistorical.jpg");
+    background-position: 50% -100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+    display: flex;
+    object-position: center;
+    object-fit: contain;
+    height: 400px;
+}
+
+.workSplash{
+    background-image: url("images/Officer\ Paul\ Medvegy\ &\ Fairfield\ CARES\ member\ Bernadette\ Coppola.jpg");
+    background-position: 50% -550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+    display: flex;
+    object-position: center;
+    object-fit: contain;
+    height: 400px;
 }
