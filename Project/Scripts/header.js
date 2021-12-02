@@ -20,16 +20,14 @@ class Header extends HTMLElement {
                       <li class="nav-item mx-3 my-auto"><a href="index.html">Home</a></li>
                 <!--About Drop Down-->
                       <li class="nav-item dropdown mx-3 my-auto">
-                          <a class="dropdown-toggle" data-toggle="dropdown">
+                          <a class="dropdown-toggle" data-toggle="dropdown" href="aboutUs.html">
                             About Fairfield CARES <span class="caret"></span>
                           </a>
                           <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
-                            <li><a href="aboutUs.html">About Us</a></li>
                             <li><a href="#">Our Staff</a></li>
-                            <li><a href="#">Our Mission</a></li>
-                            <li><a href="#">History</a></li>
+                            <li><a href="mission.html">Our Mission</a></li>
+                            <li><a href="history.html">History</a></li>
                             <li><a href="meetings.html">Meeting Schedule</a></li>
-                            <li><a href="#">News/Events</a></li>
                           </ul>
                         </li>
             <!--What We Do Drop Down-->
