@@ -17,12 +17,26 @@
     <!--Our Style Sheet-->
     <link href="coalition.css" rel="stylesheet">
 </head>
+<style>
+    .mainImage{
+        background-image: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)), 
+        url(images/about.jpg); 
+        background-attachment: fixed; height: 600px; overflow: hidden; 
+        background-position: center center;
+        background-size: cover;
+    }
+</style>
 <body>
 <div id="wrapper">
     <header-component></header-component>
     <!--Main-->
     <main>
         <!--This should be the only area we change on all of the pages-->
+        <div class = "mainImage">
+            <h1>Agendas</h1>
+        </div>
         <!---------------------YEAR: 2022--------------------------------------->
         <div class="green">
             <h2>2022</h2>

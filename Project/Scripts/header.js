@@ -28,6 +28,7 @@ class Header extends HTMLElement {
                             <li><a href="#">Our Staff</a></li>
                             <li><a href="#">Our Mission</a></li>
                             <li><a href="#">History</a></li>
+                            <li><a href="meetings.html">Meeting Schedule</a></li>
                             <li><a href="#">News/Events</a></li>
                           </ul>
                         </li>
@@ -42,7 +43,7 @@ class Header extends HTMLElement {
                                       <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                           Underage Drinking Prevention <span class="caret"></span>
                                       </a>
-                                    <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
+                                    <ul class="dropdown-submenu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
                                           <li><a href="alcoholPrograms.html">Prevention Programs</a></li>
                                           <li><a href="alcoholInformation.html">Prevention Information</a></li>
                                       </ul>
@@ -51,7 +52,7 @@ class Header extends HTMLElement {
                                   <li class="dropdown-submenu">
                                       <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                           Cannabis/Marijuana Prevention<span class="caret"></span></a>
-                                    <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
+                                    <ul class="dropdown-submenu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
                                           <li><a href="marijuanaPrograms.html">Prevention Programs</a></li>
                                           <li><a href="marijuanaInformation.html">Prevention Information</a></li>
                                       </ul>
@@ -60,7 +61,7 @@ class Header extends HTMLElement {
                                   <li class="dropdown-submenu">
                                       <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                           Vaping/Nicotine Prevention<span class="caret"></span></a>
-                                    <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
+                                    <ul class="dropdown-submenu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
                                           <li><a href="vapingPrograms.html">Prevention Programs</a></li>
                                           <li><a href="vapingInformation.html">Prevention Information</a></li>
                                       </ul>
@@ -69,7 +70,7 @@ class Header extends HTMLElement {
                                   <li class="dropdown-submenu">
                                       <a class="dropdown-toggle" data-toggle="dropdown" href="#"> 
                                           Opioids Prevention<span class="caret"></span></a>
-                                      <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
+                                      <ul class="dropdown-submenu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
                                           <li> <a href="opiodsPrograms.html">Prevention Programs</a></li>
                                           <li><a href="opiodsInformation.html">Prevention Information</a></li>
                                       </ul>
@@ -78,33 +79,25 @@ class Header extends HTMLElement {
                                   <li class="dropdown-submenu">
                                       <a class="dropdown-toggle" data-toggle="dropdown" href="#"> 
                                           Mental Health Wellness<span class="caret"></span></a>
-                                        <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
+                                        <ul class="dropdown-submenu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
                                           <li><a href="wellnessPrograms.html">Wellness Programs</a></li>
                                           <li><a href="wellnessInformation.html">Wellness Information</a></li>
                                       </ul>
                                   </li>
+                <!--Survey Results-->
+                                  <li><a href="parentAndYouthSurvey.html">Parent and Youth Survery Results</a></li>
                               </ul>
                       </li>
               <!--Colition Meetings Dropdown-->        
                       <li class="nav-item dropdown mx-3 my-auto">
-                          <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                          <a class="dropdown-toggle" href="coalitionMeetings.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
                               Coalition Meetings <span class="caret"></span>
-                          </a> 
-                          <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
-                              <li><a href="agendas.html">Agendas</a></li>
-                              <li><a href="minutes.php">Minutes</a></li>
-                          </ul>
-                      </li>
-              <!--Resources Drop Down-->    
-                       <li class="nav-item dropdown mx-3 my-auto">
-                          <a class="dropdown-toggle" data-toggle="dropdown">
-                            Helpful Resources <span class="caret"></span>
                           </a>
                           <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
-                            <li><a href="#">Meeting Schedule</a></li>
-                            <li><a href="#">Parent and Youth Survery Results</a></li>
+                              <li><a href="agendas.html">Agendas</a></li>
+                              <li><a href="minutes.html">Minutes</a></li>
                           </ul>
-                       </li>
+                      </li>
               <!--Contact-->
                       <li class="nav-item mx-3 my-auto"><a href="contact.html">Contact Us </a></li>
               <!--Google Translate element-->

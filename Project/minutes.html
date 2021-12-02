@@ -17,12 +17,26 @@
     <!--Our Style Sheet-->
     <link href="coalition.css" rel="stylesheet">
 </head>
+<style>
+    .mainImage{
+        background-image: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)), 
+        url(images/about.jpg); 
+        background-attachment: fixed; height: 600px; overflow: hidden; 
+        background-position: center center;
+        background-size: cover;
+    }
+</style>
 <body>
 <div id="wrapper">
     <header-component></header-component>
     <!--Main-->
     <main>
         <!--This should be the only area we change on all of the pages-->
+        <div class = "mainImage">
+            <h1>Minutes</h1>
+        </div>
         <div class="green">
             <h2>2022</h2>
             <ul id = "minutesList">
@@ -112,7 +126,7 @@
             </ul>
         </div>
         <div class = "white" id = "AgendaMinuteManager">
-            Use the <a href="https://www.fairfieldct.org/content/10736/12226/default.aspx">Agendas and Minutes Manager</a> to view agendas from prior years.
+            Use the <a href="https://www.fairfieldct.org/content/10736/12226/default.aspx">Agendas and Minutes Manager</a> to view minutes from prior years.
         </div>
     </main>
     <!--Footer-->

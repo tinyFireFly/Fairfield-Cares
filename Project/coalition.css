@@ -21,12 +21,20 @@ nav a:hover {color: #d4585e}
 footer {background-color: #4B4B4B; color: #FFFFFF; text-align: center; font-style: italic; display: block; padding-bottom: 1em;}
 footer a {color:#FFFFFF;}
 
-.home {background-image: url(images/background.jpg); background-attachment: fixed; height: 1000px; overflow: hidden;}
+.home {background-image: url(images/background.jpg); background-attachment: fixed; height: 1000px; overflow: hidden; }
 .about {background-image: url(images/about.jpg); background-attachment: fixed; height: 600px; background-repeat: no-repeat; overflow: hidden;}
 .alcohol {background-image: url(images/alcohol.png); background-attachment: fixed; height: 600px; background-repeat: no-repeat; overflow: hidden;}
 .alcoholInfo {background-image: url(images/alcoholInfo.png); background-attachment: fixed; height: 600px; background-repeat: no-repeat; overflow: hidden;}
 .alcoholPrograms {background-image: url(images/alcoholPrograms.png); background-attachment: fixed; height: 600px; background-repeat: no-repeat; overflow: hidden;}
 .vaping {background-image: url(images/vaping.png); background-attachment: fixed; height: 600px; background-repeat: no-repeat; overflow: hidden;}
+.survey {background-image: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)), 
+    url(images/DRSurveyCoreModules.jpg); 
+    background-attachment: fixed; height: 600px; overflow: hidden; 
+    background-position: center center;
+    background-size: cover;
+}
 .news {margin: auto; background-color: #8EC641; height: 350px; display: block; float: left; width: 50%; padding: 1em;}
     .news ul li {color: #FFFFFF; list-style-type: none; font-size: large;}
     .news ul li a {text-decoration: none; font-weight: bold;}
@@ -50,6 +58,18 @@ footer a {color:#FFFFFF;}
 .hub {margin: 0; background-color: #4EC5D7; display: block; clear: both;
     padding-top: 1em; padding-left: 10em; padding-right: 10em;}
     .hub img {width: 150px; height: 150px; float: left; padding-right: 1em; padding-bottom: 1em;}
+.youthSurvey ul{
+    list-style-type: none;
+}
+.youthSurvey a{
+    text-decoration: underline;
+}
+.youthSurvey p{
+    padding-left: 2rem;
+}
+.dropdown-submenu{
+    text-align: left;
+}
 #minutesLink{
     text-decoration: none;
     color: white;
@@ -66,14 +86,16 @@ footer a {color:#FFFFFF;}
 #agendasList{
     list-style-type: none;
 }
-#AgendaMinuteManager, #AgendaMinuteManager a{
-    color: black;
+#AgendaMinuteManager {
     text-emphasis: bold;
     text-align: center;
 }
-#AgendaMinuteManager a:hover{
-    color: blue;
-}
+    #AgendaMinuteManager a{
+        color: blue;
+    }
+    #AgendaMinuteManager a:hover{
+        color: black;
+    }
 #none {list-style-type: none;}
 
 /*
