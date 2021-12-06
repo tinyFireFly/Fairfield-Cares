@@ -11,37 +11,56 @@ a {text-decoration: none; color: #FFFFFF;}
 a:link {color: #FFFFFF;}
 a:visited {color: #FFFFFF;}
 a:hover {color: darkblue}
-/*Social Media Links */
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-}
-    .fa:hover {opacity: 0.7;}
-          /* Set a specific color for each media */
-          /* Facebook */
-    .fa-facebook {background: #3B5998;color: white;}
-          /* Twitter */
-    .fa-twitter {background: #55ACEE;color: white;}
-          /* Instagram */
-    .fa-instagram {background: #125688;color: white;}
+
           
 nav {color: #D92B35; text-align: right; font-size: large; position: absolute; top: 50%; transform: translateY(-40%); padding-right: 1em; }
     nav a {text-decoration: none; color: #D92B35;}
-    nav a:link {color: #D92B35;}
-    nav a:visited {color: #D92B35;}
-    nav a:hover {color: #d4585e}
-    .dropdown-menu{
-        position:absolute; 
+        nav a:link {color: #D92B35;}
+        nav a:visited {color: #D92B35;}
+        nav a:hover {color: #d4585e}
+    nav .btn {color: #D92B35}
+        nav .btn:link {color: #D92B35;}
+        nav .btn:visited {color: #D92B35;}
+        nav .btn:hover {color: #d4585e}
+    .dropdown-menu{position:absolute; }
+    .dropdown-submenu {
+        position: relative;margin-top:0; margin-bottom: 0.1em;  
+      }
+      
+      .dropdown-submenu .dropdown-menu {
+        white-space: nowrap;
+        top: 0;
+        left: 100%;
+        margin-top: -1px;
+      }
+     .navbar li .dropdown-menu{ display: none; }
+    .navbar li:hover .dropdown-menu{ display: block; padding-bottom: 0; margin-bottom: 0.1em; transition: all 10s ease 0s;}
+    .navbar li:hover .dropdown-menu .dropdown-submenu{ display: none; transition: all 10s ease 0s;}
+    
+    .navbar li:hover .dropdown-menu li:hover .dropdown-submenu{display: block; transition: all 10s ease 0s; }
+    .dropdown-submenu .dropdown-menu li:hover {display: block; transition: all 10s ease 0s;}
+     /*Social Media Links */
+     nav .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
     }
-    .dropdown-submenu{
-        text-align: left;
-        z-index: 999;
-    }
+     /* nav .fa:hover {opacity: 0.7;} */
+            /* Set a spsecific color for each media */
+            /* Facebook */
+            /* .facebook{background-color: #3b5998;} */
+        /* nav .facebook .fa-facebook:link {color:white;} */
+            /* Twitter */
+            /* .facebook{background-color: #55ACEE;} */
+       /* nav .fa-twitter:link {background: #55ACEE;color: white;} */
+            /* Instagram */
+            /* .facebook{background-color: #125688; text-decoration-color: white;} */
+        /* nav .fa-instagram:link {background: #125688;color: white;} */
+    
 footer {background-color: #4B4B4B; color: #FFFFFF; text-align: center; font-style: italic; display: block; padding-bottom: 1em;}
-footer a {color:#FFFFFF;}
+    footer a {color:#FFFFFF;}
 
 .home {background-image: url(images/background.jpg); background-attachment: fixed; height: 1000px; overflow: hidden; }
 .about {background-image: url(images/about.jpg); background-attachment: fixed; height: 600px; background-repeat: no-repeat; overflow: hidden;}
@@ -49,14 +68,9 @@ footer a {color:#FFFFFF;}
 .alcoholInfo {background-image: url(images/alcoholInfo.png); background-attachment: fixed; height: 600px; background-repeat: no-repeat; overflow: hidden;}
 .alcoholPrograms {background-image: url(images/alcoholPrograms.png); background-attachment: fixed; height: 600px; background-repeat: no-repeat; overflow: hidden;}
 .vaping {background-image: url(images/vaping.png); background-attachment: fixed; height: 600px; background-repeat: no-repeat; overflow: hidden;}
-.survey {background-image: linear-gradient(
-    rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 0.6)), 
-    url(images/DRSurveyCoreModules.jpg); 
-    background-attachment: fixed; height: 600px; overflow: hidden; 
-    background-position: center center;
-    background-size: cover;
-}
+.survey {background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(images/DRSurveyCoreModules.jpg); 
+    background-attachment: fixed; height: 600px; overflow: hidden; background-position: center center;background-size: cover;
+} 
 .news {margin: auto; background-color: #8EC641; height: 350px; display: block; float: left; width: 50%; padding: 1em;}
     .news ul li {color: #FFFFFF; list-style-type: none; font-size: large;}
     .news ul li a {text-decoration: none; font-weight: bold;}
@@ -140,30 +154,8 @@ footer a {color:#FFFFFF;}
 #bold {font-weight: bold;}
 #italic {font-style: italic; font-size: small;}
 
-/*
-For hover effect: 
-    .navbar li .dropdown-menu{ display: none; }
-	.navbar li:hover .dropdown-menu{ display: block; }
-	.navbar li .dropdown-menu{ margin-top:0; }
-    .dropdown-submenu{
-    position: relative;
-    }
-    .dropdown-submenu a:after{
-        display: flex;
-        flex-direction: column;
-        position: absolute !important;
-        margin-top: -30px;
-        left: 100%;
-    }
-    .dropdown-submenu:hover .dropdown-submenu, .dropdown-submenu:focus .dropdown-submenu{
-        display: flex;
-        flex-direction: column;
-        position: absolute !important;
-        margin-top: -30px;
-        left: 100%;
-    }
 
-*/
+
 p  {font-size: large; display: inline-block;}
     p a {text-decoration: none; font-weight: bold;}
     p a:link {color: #FFFFFF}

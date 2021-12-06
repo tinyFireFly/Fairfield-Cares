@@ -33,59 +33,81 @@ class Header extends HTMLElement {
                         </li>
             <!--What We Do Drop Down-->
                       <li class="nav-item dropdown mx-3 my-auto">
-                          <a class="dropdown-toggle" data-toggle="dropdown"> 
+                          <a class="dropdown-toggle" data-toggle="dropdown" href ="#"> 
                               What We Do <span class="caret"></span>
                           </a>
                           <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
               <!--Underage Drinking-->
-                                  <li class="dropdown-submenu">
-                                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                          Underage Drinking Prevention <span class="caret"></span>
+                                  <li>
+                                  <div class="btn-group dropend">
+                                    <a type="button" class="btn dropdown-toggle dropend" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Underage Drinking Prevention <span class="caret"></span>
                                       </a>
                                     <ul class="dropdown-submenu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
+                                        <div class = "dropdown-menu">
                                           <li><a href="alcoholPrograms.html">Prevention Programs</a></li>
                                           <li><a href="alcoholInformation.html">Prevention Information</a></li>
+                                        </div>
                                       </ul>
+                                    </div>
                                   </li>
               <!--Marijuana Prevent-->
-                                  <li class="dropdown-submenu">
-                                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                          Cannabis/Marijuana Prevention<span class="caret"></span></a>
+                                  <li >
+                                  <div class="btn-group dropend">
+                                  <a type="button" class="btn dropdown-toggle dropend" data-bs-toggle="dropdown" aria-expanded="false">
+                                       Cannabis/Marijuana Prevention<span class="caret"></span></a>
                                     <ul class="dropdown-submenu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
+                                        <div class = "dropdown-menu">
                                           <li><a href="marijuanaPrograms.html">Prevention Programs</a></li>
                                           <li><a href="marijuanaInformation.html">Prevention Information</a></li>
+                                          </div>
                                       </ul>
+                                      <div>
                                   </li>
               <!--Vaping Prevent-->
-                                  <li class="dropdown-submenu">
-                                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                          Vaping/Nicotine Prevention<span class="caret"></span></a>
+                                  <li >
+                                  <div class="btn-group dropend">
+                                  <a type="button" class="btn dropdown-toggle dropend" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Vaping/Nicotine Prevention<span class="caret"></span></a>
                                     <ul class="dropdown-submenu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
-                                          <li><a href="vapingPrograms.html">Prevention Programs</a></li>
+                                        <div class = "dropdown-menu">      
+                                            <li><a href="vapingPrograms.html">Prevention Programs</a></li>
                                           <li><a href="vapingInformation.html">Prevention Information</a></li>
-                                      </ul>
+                                        </div>
+                                    </ul>
+                                    </div>
                                   </li>
               <!--Opiods Prevent-->
-                                  <li class="dropdown-submenu">
-                                      <a class="dropdown-toggle" data-toggle="dropdown" href="#"> 
-                                          Opioids Prevention<span class="caret"></span></a>
+                                  <li>
+                                  <div class="btn-group dropend">
+                                  <a type="button" class="btn dropdown-toggle dropend" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Opioids Prevention<span class="caret"></span></a>
                                       <ul class="dropdown-submenu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
-                                          <li> <a href="opiodsPrograms.html">Prevention Programs</a></li>
-                                          <li><a href="opiodsInformation.html">Prevention Information</a></li>
+                                      <div class = "dropdown-menu">    
+                                            <li> <a href="opiodsPrograms.html">Prevention Programs</a></li>
+                                            <li><a href="opiodsInformation.html">Prevention Information</a></li>
+                                        </div>
                                       </ul>
+                                      </div>
                                   </li>
               <!--Mental Health-->
-                                  <li class="dropdown-submenu">
-                                      <a class="dropdown-toggle" data-toggle="dropdown" href="#"> 
-                                          Mental Health Wellness<span class="caret"></span></a>
+                                  <li>
+                                  <div class="btn-group dropend">
+                                  <a type="button" class="btn dropdown-toggle dropend" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Mental Health Wellness<span class="caret"></span></a>
                                         <ul class="dropdown-submenu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
-                                          <li><a href="wellnessPrograms.html">Wellness Programs</a></li>
+                                        <div class = "dropdown-menu">  
+                                            <li><a href="wellnessPrograms.html">Wellness Programs</a></li>
                                           <li><a href="wellnessInformation.html">Wellness Information</a></li>
+                                        </div>
                                       </ul>
+                                      </div>
                                   </li>
                 <!--Survey Results-->
-                                  <li><a href="parentAndYouthSurvey.html">Parent and Youth Survery Results</a></li>
-                              </ul>
+                                <li>
+                                    <a href="parentAndYouthSurvey.html">Parent and Youth Survery Results</a>
+                                </li>
+                            </ul>
                       </li>
               <!--Colition Meetings Dropdown-->        
                       <li class="nav-item dropdown mx-3 my-auto">
@@ -103,19 +125,25 @@ class Header extends HTMLElement {
                       <li class="nav-item mx-3 my-auto"><div id="google_translate_element"></div></li>
                 <!--Social Media-->
                         <!-- Facebook -->
-                        <li class="nav-item mx-3 my-auto">
-                            <a href="https://www.facebook.com/FairfieldCARES/" class="fa fa-facebook"></a>
+                        <div class = "facebook">
+                            <li class="nav-item mx-3 my-auto">
+                                <a href="https://www.facebook.com/FairfieldCARES/" class="fa fa-facebook"></a>   
                         </li>
+                        </div>
                         
                         <!-- Instagram -->
+                        <div class = "instagram">
                         <li class="nav-item mx-3 my-auto">
-                            <a href="https://www.instagram.com/fairfield_cares/" class="fa fa-instagram"></a>
-                        </li>
+                                <a href="https://www.instagram.com/fairfield_cares/" class="fa fa-instagram"></a>
+                        </li></div>
+
                                      
                         <!-- Twitter -->
-                        <li class="nav-item mx-3 my-auto">
-                            <a href="https://twitter.com/FairfieldCARES" class="fa fa-twitter"></a>
-                        </li>
+                        <div class = "twitter">
+                            <li class="nav-item mx-3 my-auto">
+                                <a href="https://twitter.com/FairfieldCARES" class="fa fa-twitter"></a>
+                            </li>
+                        </div>
                   </ul>
                   </div>
               </div>
