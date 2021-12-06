@@ -6,6 +6,7 @@ class Header extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
       <!--Header-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <header>   
           <!--Navigation-->
               <nav class="navbar navbar-expand-lg navbar-light">
@@ -100,6 +101,21 @@ class Header extends HTMLElement {
                       <li class="nav-item mx-3 my-auto"><a href="contact.html">Contact Us </a></li>
               <!--Google Translate element-->
                       <li class="nav-item mx-3 my-auto"><div id="google_translate_element"></div></li>
+                <!--Social Media-->
+                        <!-- Facebook -->
+                        <li class="nav-item mx-3 my-auto">
+                            <a href="https://www.facebook.com/FairfieldCARES/" class="fa fa-facebook"></a>
+                        </li>
+                        
+                        <!-- Instagram -->
+                        <li class="nav-item mx-3 my-auto">
+                            <a href="https://www.instagram.com/fairfield_cares/" class="fa fa-instagram"></a>
+                        </li>
+                                     
+                        <!-- Twitter -->
+                        <li class="nav-item mx-3 my-auto">
+                            <a href="https://twitter.com/FairfieldCARES" class="fa fa-twitter"></a>
+                        </li>
                   </ul>
                   </div>
               </div>
