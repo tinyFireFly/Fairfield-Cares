@@ -64,7 +64,7 @@
 .purple400{
     color: var(--purple-400);
 }
-.purple{
+.textPurple{
     color: var(--purple);
 }
 .purple600{
@@ -92,7 +92,7 @@
 .green400{
     color: var(--green-400);
 }
-.tcgreen{
+.textGreen{
     color: var(--green);
 }
 .green600{
@@ -120,16 +120,16 @@
 .orange400{
     color: var(--orange-400);
 }
-.orange{
+.textOrange{
     color: var(--orange);
 }
-.orange600{
+.text-orange600{
     color: var(--orange-600);
 }
-.orange700{
+.text-orange700{
     color: var(--orange-700);
 }
-.orange800{
+.text-orange800{
     color: var(--orange-800);
 }
 .orange900{
@@ -148,7 +148,7 @@
 .red400{
     color: var(--red-400);
 }
-.red{
+.textRed{
     color: var(--red);
 }
 .red600{
@@ -456,4 +456,39 @@
     object-position: center;
     object-fit: contain;
     height: 400px;
+}
+
+
+
+
+.btnGreen{
+    border-color: var(--green);
+}
+
+.btnGreen:hover {
+    background-color: var(--green-800);
+    border-color: var(--green-800);
+}
+
+.btnRed{
+    border-color: var(--red);
+}
+
+.btnRed:hover {
+    background-color: var(--red-800);
+    border-color: var(--red-800);
+}
+
+.btnPurple{
+    border-color: var(--purple);
+}
+
+.btnPurple:hover {
+    background-color: var(--purple-800);
+    border-color: var(--purple-800);
+}
+
+
+.aboutSplash{
+    box-shadow: 0 3000px rgba(253, 158, 78, .4) inset;
 }
