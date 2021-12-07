@@ -1,176 +1,425 @@
-#wrapper {margin-left: auto; margin-right: auto;}
-body {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin: auto;}
-header {background-color: #FFFFFF; background-image: url(images/logo.png); background-position: left; background-repeat: no-repeat;
-    background-size: 200px; height: 45px; margin: 0; height: 75px;}
-h1 {color: #FFFFFF; font-size: 100px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center; position: relative; top: 70%; transform: translateY(-50%); margin: 0;}
-h2 { margin: 0; padding-bottom: .5em; font-size: xx-large; font-family: Tahoma; text-align: center;}
-h3 {color: #FFFFFF; margin-bottom: 0; padding-bottom: .5em; font-family: Tahoma; font-size: 22px;}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-a {text-decoration: none; color: #FFFFFF;}
-a:link {color: #FFFFFF;}
-a:visited {color: #FFFFFF;}
-a:hover {color: darkblue}
-
-          
-nav {color: #D92B35; text-align: right; font-size: large; position: absolute; top: 50%; transform: translateY(-40%); padding-right: 1em; }
-    nav a {text-decoration: none; color: #D92B35;}
-        nav a:link {color: #D92B35;}
-        nav a:visited {color: #D92B35;}
-        nav a:hover {color: #d4585e}
-    nav .btn {color: #D92B35}
-        nav .btn:link {color: #D92B35;}
-        nav .btn:visited {color: #D92B35;}
-        nav .btn:hover {color: #d4585e}
-    .dropdown-menu{position:absolute; }
-    .dropdown-submenu {
-        position: relative;margin-top:0; margin-bottom: 0.1em;  
-      }
-      
-      .dropdown-submenu .dropdown-menu {
-        white-space: nowrap;
-        top: 0;
-        left: 100%;
-        margin-top: -1px;
-      }
-     .navbar li .dropdown-menu{ display: none; }
-    .navbar li:hover .dropdown-menu{ display: block; padding-bottom: 0; margin-bottom: 0.1em; transition: all 10s ease 0s;}
-    .navbar li:hover .dropdown-menu .dropdown-submenu{ display: none; transition: all 10s ease 0s;}
-    
-    .navbar li:hover .dropdown-menu li:hover .dropdown-submenu{display: block; transition: all 10s ease 0s; }
-    .dropdown-submenu .dropdown-menu li:hover {display: block; transition: all 10s ease 0s;}
-     /*Social Media Links */
-     nav .fa {
-        padding: 20px;
-        font-size: 30px;
-        width: 30px;
-        text-align: center;
-        text-decoration: none;
-    }
-     /* nav .fa:hover {opacity: 0.7;} */
-            /* Set a spsecific color for each media */
-            /* Facebook */
-            /* .facebook{background-color: #3b5998;} */
-        /* nav .facebook .fa-facebook:link {color:white;} */
-            /* Twitter */
-            /* .facebook{background-color: #55ACEE;} */
-       /* nav .fa-twitter:link {background: #55ACEE;color: white;} */
-            /* Instagram */
-            /* .facebook{background-color: #125688; text-decoration-color: white;} */
-        /* nav .fa-instagram:link {background: #125688;color: white;} */
-    
-footer {background-color: #4B4B4B; color: #FFFFFF; text-align: center; font-style: italic; display: block; padding-bottom: 1em;}
-    footer a {color:#FFFFFF;}
-
-.home {background-image: url(images/background.jpg); background-attachment: fixed; height: 1000px; overflow: hidden; }
-.about {background-image: url(images/about.jpg); background-attachment: fixed; height: 600px; background-repeat: no-repeat; overflow: hidden;}
-.alcohol {background-image: url(images/alcohol.png); background-attachment: fixed; height: 600px; background-repeat: no-repeat; overflow: hidden;}
-.alcoholInfo {background-image: url(images/alcoholInfo.png); background-attachment: fixed; height: 600px; background-repeat: no-repeat; overflow: hidden;}
-.alcoholPrograms {background-image: url(images/alcoholPrograms.png); background-attachment: fixed; height: 600px; background-repeat: no-repeat; overflow: hidden;}
-.vaping {background-image: url(images/vaping.png); background-attachment: fixed; height: 600px; background-repeat: no-repeat; overflow: hidden;}
-.survey {background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(images/DRSurveyCoreModules.jpg); 
-    background-attachment: fixed; height: 600px; overflow: hidden; background-position: center center;background-size: cover;
-} 
-.news {margin: auto; background-color: #8EC641; height: 350px; display: block; float: left; width: 50%; padding: 1em;}
-    .news ul li {color: #FFFFFF; list-style-type: none; font-size: large;}
-    .news ul li a {text-decoration: none; font-weight: bold;}
-    .news ul li a:link {color: #FFFFFF;}
-    .news ul li a:visited {color: #FFFFFF;}
-    .news ul li a:hover {color: darkblue;}
-.green {margin: auto; background-color: #8EC641; display: block; padding-top: 1em; padding-bottom: 1em; 
-    padding-left: 10em; padding-right: 10em;}
-
-.green p, .green h2{
-    color: white;
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+}
+header {
+  background-color: #ffffff;
+  background-image: url(images/logo.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  height: 45px;
+  margin: 0;
+  height: 75px;
 }
 
-.white p, .white h2{
-    color: white;
+h1 {
+  color: #ffffff;
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  position: relative;
+  top: 70%;
+  transform: translateY(-50%);
+  margin: 0;
+}
+h2 {
+  margin: 0;
+  padding-bottom: 0.5em;
+  font-size: xx-large;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+h3 {
+  color: #ffffff;
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
 }
 
-.yellow p, .yellow h2{
-    color: white;
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:link {
+  color: #ffffff;
+}
+a:visited {
+  color: #ffffff;
+}
+a:hover {
+  color: darkblue;
 }
 
-.blue p, .blue h2{
-    color: white;
+nav {
+  color: #d92b35;
+  text-align: right;
+  font-size: large;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-40%);
+  padding-right: 1em;
+}
+nav a {
+  text-decoration: none;
+  color: #d92b35;
+}
+nav a:link {
+  color: #d92b35;
+}
+nav a:visited {
+  color: #d92b35;
+}
+nav a:hover {
+  color: #d4585e;
+}
+nav .btn {
+  color: #d92b35;
+}
+nav .btn:link {
+  color: #d92b35;
+}
+nav .btn:visited {
+  color: #d92b35;
+}
+nav .btn:hover {
+  color: #d4585e;
+}
+.dropdown-menu {
+  position: absolute;
+}
+.dropdown-submenu {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0.1em;
 }
 
-.purple p, .purple h2{
-    color: white;
+.dropdown-submenu .dropdown-menu {
+  white-space: nowrap;
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
 }
-.white {margin: auto; background-color: #ffffff; display: block; padding-top: 1em; padding-bottom: 1em; 
-        padding-left: 10em; padding-right: 10em;}
-.yellow {margin: auto; background-color: #F3A51F; display: block; clear: both; 
-    padding-top: 1em; padding-bottom: 1em; padding-left: 10em; padding-right: 10em;}
-.blue {margin: 0; background-color: #4EC5D7; display: block; clear: both;
-    padding-top: 1em; padding-bottom: 1em; padding-left: 10em; padding-right: 10em;}
-    .blue ol li {color: #FFFFFF;}
-.purple {margin: 0; background-color: #8B5795; display: block; clear: both;
-    padding-top: 1em; padding-bottom: 1em; padding-left: 10em; padding-right: 10em;}
-.calendar {margin: auto; height: 350px; display: block; float: right; width: 50%; padding: 0;}
-    .calendar iframe #calendarTitle {text-align: center;}
-    .calendar iframe {display: block; width: 100%; height: 100%; border: none;}
-.hub {margin: 0; background-color: #4EC5D7; display: block; clear: both;
-    padding-top: 1em; padding-left: 10em; padding-right: 10em;}
-    .hub img {width: 150px; height: 150px; float: left; padding-right: 1em; padding-bottom: 1em;}
-.youthSurvey ul{
-    list-style-type: none;
+.navbar li .dropdown-menu {
+  display: none;
 }
-.youthSurvey a{
-    text-decoration: underline;
+.navbar li:hover .dropdown-menu {
+  display: block;
+  padding-bottom: 0;
+  margin-bottom: 0.1em;
+  transition: all 10s ease 0s;
 }
-.youthSurvey p{
-    padding-left: 2rem;
+.navbar li:hover .dropdown-menu .dropdown-submenu {
+  display: none;
+  transition: all 10s ease 0s;
 }
 
-#minutesLink{
-    text-decoration: none;
-    color: white;
-    padding-left: 10em;
+.navbar li:hover .dropdown-menu li:hover .dropdown-submenu {
+  display: block;
+  transition: all 10s ease 0s;
 }
-#minutesList{
-    list-style-type: none;
+.dropdown-submenu .dropdown-menu li:hover {
+  display: block;
+  transition: all 10s ease 0s;
 }
-#AgendasLink{
-    text-decoration: none;
-    color: white;
-    padding-left: 10em;
+/*Social Media Links */
+nav .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
 }
-#agendasList{
-    list-style-type: none;
+/* nav .fa:hover {opacity: 0.7;} */
+/* Set a spsecific color for each media */
+/* Facebook */
+/* .facebook{background-color: #3b5998;} */
+/* nav .facebook .fa-facebook:link {color:white;} */
+/* Twitter */
+/* .facebook{background-color: #55ACEE;} */
+/* nav .fa-twitter:link {background: #55ACEE;color: white;} */
+/* Instagram */
+/* .facebook{background-color: #125688; text-decoration-color: white;} */
+/* nav .fa-instagram:link {background: #125688;color: white;} */
+
+footer {
+  background-color: #4b4b4b;
+  color: #ffffff;
+  text-align: center;
+  font-style: italic;
+  display: block;
+  padding-bottom: 1em;
+}
+footer a {
+  color: #ffffff;
+}
+
+.home {
+  background-image: url(images/background.jpg);
+  background-attachment: fixed;
+  height: 1000px;
+  overflow: hidden;
+}
+.about {
+  display: flex;
+  background-image: url(images/about.jpg);
+  background-attachment: fixed;
+  height: 35vh;
+  background-repeat: no-repeat;
+  justify-content: center;
+  box-shadow: 0 3000px rgba(204, 0, 255, 0.4) inset;
+}
+.alcohol {
+  background-image: url(images/alcohol.png);
+  background-attachment: fixed;
+  height: 600px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.alcoholInfo {
+  background-image: url(images/alcoholInfo.png);
+  background-attachment: fixed;
+  height: 600px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.alcoholPrograms {
+  background-image: url(images/alcoholPrograms.png);
+  background-attachment: fixed;
+  height: 600px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.vaping {
+  background-image: url(images/vaping.png);
+  background-attachment: fixed;
+  height: 600px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.survey {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(images/DRSurveyCoreModules.jpg);
+  background-attachment: fixed;
+  height: 600px;
+  overflow: hidden;
+  background-position: center center;
+  background-size: cover;
+}
+.news {
+  margin: auto;
+  background-color: #8ec641;
+  height: 350px;
+  display: block;
+  float: left;
+  width: 50%;
+  padding: 1em;
+}
+.news ul li {
+  color: #ffffff;
+  list-style-type: none;
+  font-size: large;
+}
+.news ul li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.news ul li a:link {
+  color: #ffffff;
+}
+.news ul li a:visited {
+  color: #ffffff;
+}
+.news ul li a:hover {
+  color: darkblue;
+}
+.green {
+  margin: auto;
+  background-color: #8ec641;
+  display: block;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+.green p, .green h2 {
+  color: white;
+}
+
+.white p, .white h2 {
+  color: white;
+}
+
+.yellow p, .yellow h2 {
+  color: white;
+}
+
+.blue p, .blue h2 {
+  color: white;
+}
+
+.purple p, .purple h2 {
+  color: white;
+}
+.white {
+  margin: auto;
+  background-color: #ffffff;
+  display: block;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+.yellow {
+  margin: auto;
+  background-color: #f3a51f;
+  display: block;
+  clear: both;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+.blue {
+  margin: 0;
+  background-color: #4ec5d7;
+  display: block;
+  clear: both;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+.blue ol li {
+  color: #ffffff;
+}
+.purple {
+  margin: 0;
+  background-color: #8b5795;
+  display: block;
+  clear: both;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+.calendar {
+  margin: auto;
+  height: 350px;
+  display: block;
+  float: right;
+  width: 50%;
+  padding: 0;
+}
+.calendar iframe #calendarTitle {
+  text-align: center;
+}
+.calendar iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.hub {
+  margin: 0;
+  background-color: #4ec5d7;
+  display: block;
+  clear: both;
+  padding-top: 1em;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+.hub img {
+  width: 150px;
+  height: 150px;
+  float: left;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+.youthSurvey ul {
+  list-style-type: none;
+}
+.youthSurvey a {
+  text-decoration: underline;
+}
+.youthSurvey p {
+  padding-left: 2rem;
+}
+
+#minutesLink {
+  text-decoration: none;
+  color: white;
+  padding-left: 10em;
+}
+#minutesList {
+  list-style-type: none;
+}
+#AgendasLink {
+  text-decoration: none;
+  color: white;
+  padding-left: 10em;
+}
+#agendasList {
+  list-style-type: none;
 }
 #AgendaMinuteManager {
-    text-emphasis: bold;
-    text-align: center;
+  text-emphasis: bold;
+  text-align: center;
 }
-    #AgendaMinuteManager a{
-        color: blue;
-    }
-    #AgendaMinuteManager a:hover{
-        color: black;
-    }
-#none {list-style-type: none;}
-#bold {font-weight: bold;}
-#italic {font-style: italic; font-size: small;}
+#AgendaMinuteManager a {
+  color: blue;
+}
+#AgendaMinuteManager a:hover {
+  color: black;
+}
+#none {
+  list-style-type: none;
+}
+#bold {
+  font-weight: bold;
+}
+#italic {
+  font-style: italic;
+  font-size: small;
+}
 
+p {
+  font-size: 16px;
+  display: inline-block;
+}
+p a {
+  text-decoration: none;
+  font-weight: bold;
+}
+p a:link {
+  color: #ffffff;
+}
+p a:visited {
+  color: darkblue;
+}
+p a:hover {
+  color: darkblue;
+}
 
-
-p  {font-size: large; display: inline-block;}
-    p a {text-decoration: none; font-weight: bold;}
-    p a:link {color: #FFFFFF}
-    p a:visited {color: darkblue;}
-    p a:hover {color: darkblue;}
-
-li {color: #FFFFFF;}
-dl dt {color: #FFFFFF; font-weight: bold;}
-dl dd {color: #FFFFFF;}
+li {
+  color: #ffffff;
+}
+dl dt {
+  color: #ffffff;
+  font-weight: bold;
+}
+dl dd {
+  color: #ffffff;
+}
 .contactForm {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.contactForm iframe{
-    background-color:#FFFFFF;   
+.contactForm iframe {
+  background-color: #ffffff;
 }
-
