@@ -217,6 +217,7 @@ footer a {
   float: left;
   width: 50%;
   padding: 1em;
+  color: white;
 }
 .news ul li {
   color: #ffffff;
@@ -329,6 +330,7 @@ footer a {
   background-color: #4ec5d7;
   display: block;
   clear: both;
+  color: white;
   padding-top: 1em;
   padding-left: 10em;
   padding-right: 10em;
