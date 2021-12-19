@@ -25,7 +25,7 @@ class Header extends HTMLElement {
                             About Fairfield CARES <span class="caret"></span>
                           </a>
                           <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="navbarDropdown">
-                            <li><a href="#">Our Staff</a></li>
+    
                             <li><a href="mission.html">Our Mission</a></li>
                             <li><a href="history.html">History</a></li>
                             <li><a href="meetings.html">Meeting Schedule</a></li>
@@ -105,7 +105,7 @@ class Header extends HTMLElement {
                                   </li>
                 <!--Survey Results-->
                                 <li>
-                                    <a href="parentAndYouthSurvey.html">Parent and Youth Survery Results</a>
+                                    <a href="parentAndYouthSurvey.html">Parent and Youth Survey Results</a>
                                 </li>
                             </ul>
                       </li>
