@@ -5,13 +5,13 @@ class Header extends HTMLElement {
   
     connectedCallback() {
       this.innerHTML = `
-      <header>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>   
+      <header>  
         <!--Navigation-->
             <nav class="navbar navbar-expand-lg navbar-light">
               <div class="container-fluid">
-               <img src="resources/images/logo.png">
+              <div class = "logo">
+                <img src="resources/images/logo.png">
+              </div>
          <!--Logo-->      
                 <a class="navbar-brand" href="#"><h1></h1></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
