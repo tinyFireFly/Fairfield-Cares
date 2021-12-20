@@ -191,6 +191,8 @@ footer a{
     color: rgb(0, 0, 201);
 }
 
+
+
 #welcomeContent{
     padding: 25px 0;
     display: flex;
@@ -404,6 +406,18 @@ footer a{
     justify-content: center;
     
     background-color: var(--purple);
+}
+#meetingInfo{
+    text-align: center;
+}
+#meetingInfo div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#agendaReference{
+    display: flex;
+    flex-direction: row;
 }
 @media (max-width: 1000px){
 
