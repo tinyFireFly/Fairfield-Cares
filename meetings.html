@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Us</title>
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="bootstrapTheming.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <!--Scripting-->
+        <script src="resources/Scripts/scripts.js"></script>
+        <script src="resources/Scripts/header.js"></script>
+        <script src="resources/Scripts/footer.js"></script>
+        <!--Styling-->
+        <link rel="stylesheet" href="coalition.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <style>
+        .row{
+        text-align: center;
+    }
+    .row h2{
+        text-decoration: underline;
+    }
+    .calendar{
+        float: clear; 
+        width: 100%; 
+        height: 600px;
+    }
+    input{ 
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-right: 2em;
+        padding-left: 2em;
+        font-weight: bold;
+        margin: auto;
+        color:black;
+        background-color: white;
+    }
+    input:hover{
+        background-color: black;
+        color: white;
+    }
+    .orangeBackground{align-items: left;}
+    </style>
+<body>
+    <header-component></header-component>
+      <main>
+          <div class="splash">
+            <!-- <img src="resources/images/Harvest_Festival.jpg"> -->
+                <div class="calendarContainer">
+                    <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&src=Y18wcjB2NmU3MzQ0Ym9wcWh0NXM1bXY2MjZ2c0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23616161&color=%230B8043" frameborder="0" scrolling="no" width="650px" height="400px"></iframe>
+                </div>
+          </div>
+              <div class="textContent">
+                <div class = "orangeBackground">
+                    <div class = "row">
+                    <div class = "col-md-4">
+                        <h2>WHO?</h2>
+                        <p>All Coalition meetings are open to the public. </p>
+                    </div>
+                    <div class = "col-md-4">
+                        <h2>WHEN?</h2>
+                        <p>Meetings are generally held the third Wednesday of every month at 8:30 am. </p>
+                        <p>Consult the <a href = "agendas.html">Agendas</a> for more information.</p>
+                    </div>
+                    <div class = "col-md-4">
+                        <h2>WHERE?</h2>
+                        <p>At the Board of Education, <br>2nd Floor Conference Room, <br>501 Kings Highway East, <br>Fairfield, CT.</p>
+                        <p>Consult the <a href = "agendas.html">Agendas</a> for more information.</p>
+                    </div>
+                    </div>
+                </div>
+                
+                <div class = "blueBackground">
+                    <div class = "row">
+                        <div class = "col-md-8">
+                            <h3>
+                                Consult meeting agendas to confirm time and location as meetings may be moved to accommodate larger crowds or for other space-related reasons.
+                            </h3>
+                        </div>
+                        <div class = "col-md-4">
+                            <form action="agendas.html">
+                                <input type="submit" value="Agendas" />
+                            </form>
+                        </div>
+                    </div>    
+                </div>
+                <div class = "greenBackground">
+                    <div class = "row">
+                        <div class = "col-md-8">
+                            <h3>
+                                Special Meetings may be called at any time and meetings may be cancelled and/or rescheduled.  Please check the Town Meetings Calendar for last minute additions or cancellations.
+                            </h3>
+                        </div>
+                        <div class = "col-md-4">
+                            <form action="https://www.fairfieldct.org/townmeetings">
+                                <input type="submit" value="Town Meetings Calendar" />
+                            </form>
+                        </div>                
+                    </div>    
+                </div>
+      </main>
+      <footer>
+        <br>Fairfield CARES Community Coalition
+        <br><a  href=“mailto:fairfieldcares@fairfieldct.org”>fairfieldcares@fairfieldct.org</a>
+    </footer>
+</body>
+</html>

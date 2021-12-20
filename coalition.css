@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root{
+    /* Variables can be held here, it allows us to change the entire theme of the page from right here. */
+    /* Variables can be referenced using the var() function */
+    /* Minor Obstacle: To use opacity with these colors, convert the hex to an RGBA value */
+    /* Oranges */
+    --orange-100: #fea962;
+    --orange-200: #fd9e4e;
+    --orange-300: #fd933b;
+    --orange-400: #fd8927;
+    --orange: #fd7e14;
+    --orange-600: #fb7302;
+    --orange-700: #e86b02;
+    --orange-800: #d46202;
+    --orange-900: #c15902;
+    /* Purples */
+    --purple-100: #9c7dd4;
+    --purple-200: #916ed0;
+    --purple-300: #8660cb;
+    --purple-400: #7a51c6;
+    --purple: #6f42c1;
+    --purple-600: #663bb4;
+    --purple-700: #5e36a5;
+    --purple-800: #553197;
+    --purple-900: #4d2d88;
+    /* Greens */
+    --green-100: #b2d87d;
+    --green-200: #a9d46e;
+    --green-300: #a0cf5f;
+    --green-400: #97cb50;
+    --green: #8ec641;
+    --green-600: #84bb38;
+    --green-700: #79ac34;
+    --green-800: #6f9d2f;
+    --green-900: #648e2b;
+    /* Reds */
+    --red-100: #e56e74;
+    --red-200: #e25d65;
+    --red-300: #df4c55;
+    --red-400: #dc3c45;
+    --red: #d92b35;
+    --red-600: #cc252e;
+    --red-700: #bb222a;
+    --red-800: #ab1f27;
+    --red-900: #9a1c23;
+    /*Blues*/
+    --blue: #4EC5D7;
+    /* White */
+    --white: #FFFFFF;
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif; 
+}
+
+p{
+    font-size: 16px;
+}
+
+h1{
+    font-size: 51px;
+}
+
+h2{
+    font-size: 38px;
+}
+
+a{
+    text-decoration: none;
+}
+li a{
+    text-decoration: none;
+}
+footer{
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+footer a{
+    font-style: italic;
+    font-size: 12px;
+    color: white;
+}
+
+.splash{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.splash img{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 720px;
+}
+
+.splash .splashText{
+    position: absolute;
+    z-index: 2;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    width: 60%;
+    color: white;
+}
+
+.navbar li .dropdown-menu {
+    display: none;
+  }
+
+.navbar li:hover .dropdown-menu {
+    display: block;
+    padding-bottom: 0;
+    margin-bottom: 0.1em;
+    transition: all 10s ease 0s;
+}
+
+.navbar li:hover .dropdown-menu .dropdown-submenu {
+    display: none;
+    transition: all 10s ease 0s;
+  }
+  
+  .navbar li .dropdown-menu li:hover .dropdown-submenu {
+    display: block;
+    position: relative;
+    transition: all 10s ease 0s;
+  }
+
+
+.bulletinContainer{
+    display: flex;
+}
+
+.newsContainer{
+    width: 50%;
+    padding: 25px 0;
+    background-color: var(--green);
+    color: white;
+}
+
+.newsContainer h3{
+    color: white;
+}
+
+.newsContainer a{
+    color: white;
+}
+.newsContainer a:hover{
+    color: #dfdfdf;
+}
+.calendarContainer{
+    text-align: center;
+}
+
+.calendarContainer iframe{
+    width: 950px;
+}
+
+.textContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+
+.textContent p, .textContent ol, .textContent ul, .textContent dl{
+    width: 700px;
+    
+}
+
+.textContent a{
+    color: blue;
+}
+
+.textContent a:hover{
+    color: rgb(0, 0, 201);
+}
+
+#welcomeContent{
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--orange);
+}
+
+#welcomeContent .textContent{
+    text-align: center;
+    color:white;
+}
+
+#hubContent{
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue);
+}
+
+#hubContent img{
+    height: 250px;
+    width: 250px;
+    padding: 25px;
+}
+
+.rowContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 25px 0;
+}
+
+.rowContainer img{
+    width: 350px;
+    height: 350px;
+    padding: 0 25px;
+    border-radius: 100%;
+}
+
+.textContent.blackText{
+    color: black;
+}
+
+#historyContent{
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--purple);
+}
+
+#missionContent{
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--green);
+}
+#workContent{
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--orange);
+}
+
+#navbarDropdown{
+    cursor: default;
+}
+
+#alcProgramContent{
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--green);
+}
+#alcProgramContent2{
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue);
+}
+#alcProgramImgs{
+    display: flex;
+    flex-direction: row;
+}
+#alcProgramImgs img{
+    margin: 0 5px;
+    width: 300px;
+    height: 400px;
+}
+
+#alcInfoContent{
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--green);
+}
+
+#alcInfoContent2{
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--orange);
+}
+
+#alcInfoContent3{
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue);
+}
+
+#alcInfoContent4{
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--purple);
+}
+
+#alcInfoContent4 a{
+    color: white;
+}
+#alcInfoContent4 a:hover{
+    color: rgb(206, 206, 206);
+}
+#alcInfoContent4 ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+#cannabisProgramContent{
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--green);
+}
+
+#cannabisProgramContent2{
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue);
+}
+
+#cannabisProgramContent2 ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+#cannabisProgramContent2 a{
+    color: white;
+}
+#cannabisProgramContent2 a:hover{
+    color: rgb(206, 206, 206);
+}
+
+.greenBackground{
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--green);
+}
+
+.blueBackground{
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: var(--blue);
+}
+
+.blueBackground a, .purpleBackground a, .greenBackground a, .orangeBackground a{
+ color: white;
+}
+
+.blueBackground a:hover, .purpleBackground a:hover, .greenBackground a:hover, .orangeBackground a:hover{
+    color: rgb(206, 206, 206);
+   }
+.orangeBackground{
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: var(--orange);
+}
+.purpleBackground{
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: var(--purple);
+}
+@media (max-width: 1000px){
+
+    .navbar li .dropdown-menu li:hover .dropdown-submenu {
+        display: none;
+        position: relative;
+        transition: all 10s ease 0s;
+      }
+
+    .row .col-mx-6 .container-sm img{
+        display: none;
+    }
+
+}
